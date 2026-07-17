@@ -1,7 +1,7 @@
 # ContractIQ - 16-Day Learn + Build + Commit Plan
 
 Repo: git@github.com:sumanthkeshav/contractiq.git
-Local path: this directory (claude-proj)
+Local path: this directory (contractiq)
 
 ## Git workflow
 
