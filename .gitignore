@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+
+# Claude Code local runtime state (per-machine, not shared)
+.claude/settings.local.json
+
+# Curriculum reference material (not part of the built product)
+ContractIQ_16Day_Curriculum*.md
+ContractIQ_16Day_Curriculum*.pdf
+
+# Secrets / env
+.env
+.env.*
+*.token
+
+# Real (non-sample) contracts and extracted data - never commit actual client/vendor documents
+contracts/*
+!contracts/.gitkeep
+!contracts/samples/
+extraction/input/*
+!extraction/input/.gitkeep
+!extraction/input/samples/
+extraction/output/*.json
+!extraction/output/.gitkeep
+
+# Logs / audit trails (local only)
+*.log
+obligations/audit/*.jsonl
+
+# Python / venv (chunker, evals, etc.)
+.venv/
+__pycache__/
+*.pyc
+
+# Node (if any tooling scripts use it)
+node_modules/
